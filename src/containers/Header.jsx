@@ -12,7 +12,7 @@ const Header = () => {
       <div>© Designed By Vidit</div>
       <div className={styles.navoptions}>
         <a href="">Home</a>
-        <a href="">About Me</a>
+        <a href="">About</a>
         <a href="">Skills</a>
         <a href="">Experience</a>
       </div>
