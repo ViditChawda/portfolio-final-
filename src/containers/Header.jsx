@@ -15,6 +15,7 @@ const Header = () => {
         <a href="">About</a>
         <a href="">Skills</a>
         <a href="">Experience</a>
+        <a href="">Contact</a>
       </div>
       {opennav && <div className={styles.navmenu}>
         <a href="">Home</a>

@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap');
 
 .mainnav {
+    position: sticky;
+    top: 0;
+    background-color: white;
     font-family: 'Poppins', sans-serif;
     color: rgb(57, 56, 56);
     display: flex;
@@ -22,7 +25,7 @@
         width: 40%;
     }
 
-    .navoptions a{
+    .navoptions a {
         margin-left: 40px;
     }
 
@@ -45,30 +48,30 @@
         padding: 50px;
         flex-direction: column;
 
-        a{
+        a {
             margin-top: 30px;
         }
     }
 }
 
-@media screen and (max-width: 1450px){
-    .mainnav{
+@media screen and (max-width: 1450px) {
+    .mainnav {
         font-size: small;
         padding: 15px;
 
-        .navoptions a{
+        .navoptions a {
             margin-left: 30px;
             font-size: 12px;
         }
     }
 }
 
-@media screen and (max-width: 1250px){
-    .mainnav{
+@media screen and (max-width: 1250px) {
+    .mainnav {
         font-size: small;
         padding: 10px;
 
-        .navoptions a{
+        .navoptions a {
             margin-left: 30px;
             font-size: 12px;
         }
@@ -76,16 +79,26 @@
 }
 
 @media screen and (max-width: 950px) {
-    .mainnav{
+    .mainnav {
         padding: 8px;
         font-size: 11px;
-        
-        .navoptions{
-            font-size: 10px;
-            width: 50%;
+
+        .navoptions a {
+            display: none;
         }
-        .navoptions a{
-            margin-left: 13px;
+
+        .hamburger {
+            display: block;
+            padding-right: 25px;
+            font-size: medium;
+
+            :hover {
+                cursor: pointer;
+            }
+        }
+
+        .navmenu {
+            display: flex;
         }
     }
 }
