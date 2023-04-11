@@ -5,9 +5,9 @@
     color: rgb(57, 56, 56);
     display: flex;
     justify-content: space-between;
-    padding: 30px;
+    padding: 18px;
     font-size: large;
-    border: 1px solid black;
+    // border: 1px solid black;
 
     .copyricon {
         margin-top: 5px;
@@ -16,11 +16,12 @@
     .navoptions {
         display: flex;
         font-size: 15px;
-        width: 30%;
+        justify-content: space-around;
+        width: 40%;
     }
 
     .navoptions a{
-        margin-right: 40px;
+        margin-left: 40px;
     }
 
     .hamburger {
@@ -32,7 +33,7 @@
         top: 0;
         bottom: 0;
         // border: 1px solid black;
-        background-color: rgb(249, 248, 246);
+        background-color: white;
         position: fixed;
         display: flex;
         margin-top: 86.6px;
@@ -48,7 +49,46 @@
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1450px){
+    .mainnav{
+        font-size: small;
+        padding: 15px;
+
+        .navoptions a{
+            margin-left: 30px;
+            font-size: 12px;
+        }
+    }
+}
+
+@media screen and (max-width: 1250px){
+    .mainnav{
+        font-size: small;
+        padding: 10px;
+
+        .navoptions a{
+            margin-left: 30px;
+            font-size: 12px;
+        }
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .mainnav{
+        padding: 8px;
+        font-size: 11px;
+        
+        .navoptions{
+            font-size: 10px;
+            width: 50%;
+        }
+        .navoptions a{
+            margin-left: 13px;
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
     .mainnav {
         font-size: small;
 
