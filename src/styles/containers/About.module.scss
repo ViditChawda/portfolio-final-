@@ -24,6 +24,7 @@
             padding: 50px;
 
             span {
+                font-size: 23px;
                 color: rgb(236, 236, 88);
             }
         }
@@ -45,7 +46,11 @@
 
             .aboutContent {}
 
-            .aboutImage {}
+            .aboutImage {
+                height: 400px;
+                width: 350px;
+                padding: 20px;
+            }
         }
     }
 }
@@ -59,7 +64,7 @@
             .aboutContent {}
 
             .aboutImage {
-                height: 350px;
+                height: 420px;
                 width: 300px;
                 padding: 20px;
             }
