@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&display=swap');
+
+.aboutContainer {
+    min-height: 100vh;
+    width: 100%;
+    // border: 2px solid black;  
+    font-family: 'Fira Code', monospace;
+    ;
+    height: 100%;
+
+    .aboutWrapper {
+        display: flex;
+        // border: 1px solid red;
+        width: 1200px;
+        margin: auto;
+        width: 100%;
+        min-height: 50vh;
+        max-width: 1000px;
+
+        .aboutContent {
+            // border: 1px solid black;
+            font-size: 20px;
+            // width: 100%;
+            padding: 50px;
+
+            span {
+                color: rgb(236, 236, 88);
+            }
+        }
+
+        .aboutImage {
+            // border: 1px solid black;
+            width: 400px;
+            height: 400px;
+            margin: auto;
+            opacity: 0.7;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .aboutContainer {
+        .aboutWrapper {
+            width: 800px;
+
+            .aboutContent {}
+
+            .aboutImage {}
+        }
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .aboutContainer {
+        .aboutWrapper {
+            flex-direction: column;
+            width: 600px;
+
+            .aboutContent {}
+
+            .aboutImage {
+                height: 350px;
+                width: 300px;
+                padding: 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .aboutContainer {
+        .aboutWrapper {
+            flex-direction: column;
+            width: 500px;
+
+            .aboutContent {}
+
+            .aboutImage {
+                height: 250px;
+                width: 200px;
+                padding: 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .aboutContainer {
+        .aboutWrapper {
+            flex-direction: column;
+            width: 380px;
+
+            .aboutContent {}
+
+            .aboutImage {
+                height: 290px;
+                width: 200px;
+                padding: 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .aboutContainer {
+        .aboutWrapper {
+            .aboutContent {}
+
+            .aboutImage {
+                
+            }
+        }
+    }
+}

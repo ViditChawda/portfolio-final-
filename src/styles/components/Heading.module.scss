@@ -1,4 +1,13 @@
-.headingMain div{
-    border: 1px solid black;
-    width : 4px;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
+.heading{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+}
+
+.line{
+    width : 350px; 
+    border-top: 1px solid black;
+    margin-top: 25px;
 }

@@ -3,10 +3,10 @@ import styles from '../styles/components/Heading.module.scss'
 
 const Heading = (props) => {
   return (
-    <div className='headingMain'>
-        <div></div>
+    <div className={styles.heading}>
+        <p className={styles.line}></p>
         <p>{props.title}</p>
-        <div></div>
+        <p className={styles.line}></p>
     </div>
   )
 }
