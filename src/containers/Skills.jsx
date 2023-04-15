@@ -10,31 +10,56 @@ import vscode from '../assets/vscode-logo.png'
 import javascript from '../assets/javascript-logo.png'
 import tailwind from '../assets/tailwind-logo.png'
 import as from '../assets/androidstudio-logo.png'
+import { motion } from 'framer-motion'
 
 const Skills = () => {
     return (
-        <div className={styles.skillsContainer}>
+        <div id="Skills" className={styles.skillsContainer}>
             <Heading title="Skills" />
             <div className={styles.skillsWrapper}>
                 <div className={styles.skills}>
-                    <div>
+                    <motion.div initial={{
+                        x: 200,
+                        opacity: 0
+                    }}
+                        transition={{ duration: 1 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                    >
                         <Image src={react} className={styles.skillsLogo} />
                         <Image src={next} className={styles.skillsLogo} />
                         <Image src={html} className={styles.skillsLogo} />
-                    </div>
-                    <div>
-                       
+                    </motion.div>
+
+                    <motion.div
+                        initial={{
+                            x: -200,
+                            opacity: 0
+                        }}
+                        transition={{ duration: 1 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                    >
                         <Image src={as} className={styles.skillsLogo} />
                         <Image src={tailwind} className={styles.skillsLogo} />
-                    </div>
-                    <div>
-                        
+                    </motion.div>
+
+                    <motion.div initial={{
+                        x: 200,
+                        opacity: 0
+                    }}
+                        transition={{ duration: 1 }}
+                        whileInView={{ opacity: 1, x: 0 }}>
+
                         <Image src={css} className={styles.skillsLogo} />
-                    </div>
-                    <div>
+                    </motion.div>
+                    <motion.div initial={{
+                        x: 200,
+                        opacity: 0
+                    }}
+                        transition={{ duration: 1 }}
+                        whileInView={{ opacity: 1, x: 0 }}>
                         <Image src={vscode} className={styles.skillsLogo} />
                         <Image src={javascript} className={styles.skillsLogo} />
-                    </div>
+                    </motion.div>
                 </div>
             </div>
         </div>
