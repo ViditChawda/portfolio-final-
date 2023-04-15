@@ -11,11 +11,11 @@ const Header = () => {
     <nav className={styles.mainnav} >
       <div>© Designed By Vidit</div>
       <div className={styles.navoptions}>
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Skills</a>
-        <a href="">Experience</a>
-        <a href="">Contact</a>
+        <a href="#Home">Home</a>
+        <a href="#About">About</a>
+        <a href="#Skills">Skills</a>
+        <a href="#Experience">Experience</a>
+        <a href="#Contact">Contact</a>
       </div>
       {opennav && <div className={styles.navmenu}>
         <a href="">Home</a>

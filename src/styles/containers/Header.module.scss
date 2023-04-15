@@ -2,6 +2,7 @@
 // @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap');
 
 .mainnav {
+    z-index: 300px;
     position: sticky;
     top: 0;
     font-weight: 600;
@@ -9,7 +10,6 @@
     font-family: 'Poppins', sans-serif;
     color: rgb(57, 56, 56);
     display: flex;
-    border-bottom: 2px solid rgb(190, 188, 188);
     justify-content: space-between;
     padding: 18px;
     font-size: large;

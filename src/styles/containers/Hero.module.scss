@@ -48,6 +48,17 @@
             // border: 1px solid black;
         }
 
+        .myIcons a {
+            color: #2f387b;
+            margin-right: 14px;
+            font-size: 25px;
+            transition: 5s;
+
+            :hover{
+                cursor: pointer;
+            }
+        }
+
         .currentStatusText {
             color: #0c023e;
             font-size: 20px;

@@ -7,6 +7,14 @@
   min-height: 100vh;
 }
 
+.container{
+  scroll-snap-type: y mandatory;
+}
+
+.Hero{
+  scroll-snap-align: start;
+}
+
 .description {
   display: inherit;
   justify-content: inherit;

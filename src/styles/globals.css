@@ -6,6 +6,11 @@ body {
   overflow-x: hidden;
 }
 
+html{
+  scroll-behavior: smooth;
+  
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
