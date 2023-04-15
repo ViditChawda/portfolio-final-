@@ -19,7 +19,7 @@ const Skills = () => {
             <div className={styles.skillsWrapper}>
                 <div className={styles.skills}>
                     <motion.div initial={{
-                        x: 200,
+                        y: 300,
                         opacity: 0
                     }}
                         transition={{ duration: 1 }}
@@ -32,7 +32,7 @@ const Skills = () => {
 
                     <motion.div
                         initial={{
-                            x: -200,
+                            y: 300,
                             opacity: 0
                         }}
                         transition={{ duration: 1 }}
@@ -43,20 +43,20 @@ const Skills = () => {
                     </motion.div>
 
                     <motion.div initial={{
-                        x: 200,
+                        y: 300,
                         opacity: 0
                     }}
-                        transition={{ duration: 1 }}
-                        whileInView={{ opacity: 1, x: 0 }}>
+                    transition={{duration : 1}}
+                    whileInView={{opacity: 1, x:0}}>
 
                         <Image src={css} className={styles.skillsLogo} />
                     </motion.div>
                     <motion.div initial={{
-                        x: 200,
+                        y: 300,
                         opacity: 0
                     }}
-                        transition={{ duration: 1 }}
-                        whileInView={{ opacity: 1, x: 0 }}>
+                    transition={{duration : 1}}
+                    whileInView={{opacity: 1, x:0}}>
                         <Image src={vscode} className={styles.skillsLogo} />
                         <Image src={javascript} className={styles.skillsLogo} />
                     </motion.div>
