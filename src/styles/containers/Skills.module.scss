@@ -30,9 +30,13 @@
                 width: 80px;
                 height: 80px;
                 margin-right: 40px;
-                border: 2px solid rgb(81, 81, 80);
+                border: 1px solid aliceblue;
                 padding: 5px;
                 border-radius: 200px;
+                
+                :hover{
+                    cursor: pointer;
+                }
             }
         }
     }
