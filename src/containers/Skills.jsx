@@ -10,12 +10,18 @@ import vscode from '../assets/vscode-logo.png'
 import javascript from '../assets/javascript-logo.png'
 import tailwind from '../assets/tailwind-logo.png'
 import as from '../assets/androidstudio-logo.png'
+import { motion } from 'framer-motion'
 
 const Skills = () => {
     return (
         <div id="Skills" className={styles.skillsContainer}>
             <Heading title="Skills" />
-            <div className={styles.skillsWrapper}>
+            <motion.div initial={{
+                y: 300,
+                opacity: 0
+            }}
+                transition={{ duration: 1 }}
+                whileInView={{ opacity: 1, y: 0 }} className={styles.skillsWrapper}>
                 <div className={styles.skills}>
                     <div>
                         <Image src={react} className={styles.skillsLogo} />
@@ -23,12 +29,12 @@ const Skills = () => {
                         <Image src={html} className={styles.skillsLogo} />
                     </div>
                     <div>
-                       
+
                         <Image src={as} className={styles.skillsLogo} />
                         <Image src={tailwind} className={styles.skillsLogo} />
                     </div>
                     <div>
-                        
+
                         <Image src={css} className={styles.skillsLogo} />
                     </div>
                     <div>
@@ -36,7 +42,7 @@ const Skills = () => {
                         <Image src={javascript} className={styles.skillsLogo} />
                     </div>
                 </div>
-            </div>
+            </motion.div>
         </div>
     )
 }
