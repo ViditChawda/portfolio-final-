@@ -9,7 +9,7 @@ const About = () => {
 
   return (
     <div id='About' className={styles.aboutContainer}>
-      <Heading title="About" />
+      <Heading title="ABOUT" />
       <motion.div initial={{
         y: 300,
         opacity: 0

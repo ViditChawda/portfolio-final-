@@ -10,15 +10,23 @@ import { BsMedium } from 'react-icons/bs'
 import { FiInstagram } from 'react-icons/fi'
 import { FiFacebook } from 'react-icons/fi'
 import { FiTwitter } from 'react-icons/fi'
+import Typewriter from 'typewriter-effect';
 
 const Hero = () => {
+
   return (
-    <div  id="Home"  className={styles.introContainer}>
-      <div  className={styles.introWrapper}>
+    <div id="Home" className={styles.introContainer}>
+      <div className={styles.introWrapper}>
 
         <p className={styles.greetingText}>{'Hi There, I am ->'}</p>
 
-        <p className={styles.nameText}>{'Vidit Chawda.'}</p>
+        <div className={styles.nameText}><Typewriter
+          options={{
+            strings: ['Vidit Chawda.'],
+            autoStart: true,
+            loop: true,
+          }}
+        /></div>
 
         <p className={styles.workText}>
           {'I build stuffs for web'}
