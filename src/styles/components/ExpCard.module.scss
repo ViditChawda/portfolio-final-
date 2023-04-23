@@ -1,0 +1,53 @@
+.ExpcardContainer {
+
+    border-radius: 10px;
+    max-width: 520px;
+    padding: 20px;
+    color: white;
+    background-color: #193357;
+    transition: .3s;
+    border: 2px solid transparent;
+
+    &:hover {
+        border: 1px solid #00abf0;
+    }
+
+    .headwrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .title {
+            color: white;
+            font-size: 25px;
+            letter-spacing: 5px;
+        }
+
+        .logo {
+            width: 100px;
+            height: 70px;
+            opacity: 0.7;
+        }
+    }
+    .line{
+        border: 1px solid #299ec9;
+        margin: 10px 0px;
+    }
+    .subTitle {
+        font-size: 20px;
+        color: #00abf0;
+        font-weight: 100;
+    }
+
+    .date {
+        opacity: 0.5;
+        font-size: 15px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .body {
+        margin-top: 10px;
+        opacity: 0.7;
+    }
+
+}

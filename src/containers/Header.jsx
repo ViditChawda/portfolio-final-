@@ -9,7 +9,7 @@ const Header = () => {
 
   return (
     <nav className={styles.mainnav} >
-      <div className={styles.namelogo}> © Vidit Chawda.</div>
+      <div className={styles.namelogo}> © <span>V</span>idit <span>C</span>hawda.</div>
       <div className={styles.navoptions}>
         <a href="#Home">Home.js</a>
         <a href="#About">About.js</a>

@@ -1,0 +1,32 @@
+.expContainer {
+    height: 100%;
+    weight: 100%;
+    
+    min-height: 100vh;
+
+    .expWrapper {
+        padding: 100px;
+        display: flex;
+        flex-direction: column;
+        // border: 2px solid #00abf0;
+        max-width: 1200px;
+        margin: auto;
+        div {
+            margin: 10px 10px;
+        }
+
+        .one {
+            display: flex;
+            justify-content: end;
+        }
+
+        .two {
+
+        }
+
+        .three {
+            display: flex;
+            justify-content: end;
+        }
+    }
+}

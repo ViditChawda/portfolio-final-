@@ -6,7 +6,8 @@ const Skills = () => {
     return (
         <div id='Skills' className={styles.skillsContainer}>
             <div className={styles.skillsWrapper}>
-                <Heading title="SKILLS" />
+                <Heading title="SKILLS"/>
+
             </div>
 
         </div>

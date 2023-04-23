@@ -21,6 +21,9 @@
         font-weight: 700;
         font-size: 22px;
         margin-left: 20px;
+        span{
+            color: #00abf0;
+        }
     }
 
     .copyricon {
@@ -39,8 +42,8 @@
 
     .navoptions a {
         margin-left: 40px;
-
-        .navoptions a :hover {
+        transition: .3s;
+        &:hover {
             // cursor: pointer;
             color: #00abf0;
         }
