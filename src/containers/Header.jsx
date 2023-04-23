@@ -9,17 +9,17 @@ const Header = () => {
 
   return (
     <nav className={styles.mainnav} >
-      <div className={styles.namelogo}> © Vidit.</div>
+      <div className={styles.namelogo}> © Vidit Chawda.</div>
       <div className={styles.navoptions}>
-        <a href="#Home">Home</a>
-        <a href="#About">About</a>
-        <a href="#Skills">Skills</a>
-        <a href="#Experience">Experience</a>
-        <a href="#Contact">Contact</a>
+        <a href="#Home">Home.js</a>
+        <a href="#About">About.js</a>
+        <a href="#Skills">Skills.js</a>
+        <a href="#Experience">Experience.js</a>
+        <a href="#Contact">Contact.js</a>
       </div>
       {opennav && <div className={styles.navmenu}>
-        <a href="">Home</a>
-        <a href="">About Me</a>
+        <a href="">Home.js</a>
+        <a href="">About.js</a>
         <a href="">Skills</a>
         <a href="">Experience</a>
       </div>}

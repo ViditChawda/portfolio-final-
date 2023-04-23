@@ -18,11 +18,11 @@ const Hero = () => {
     <div id="Home" className={styles.introContainer}>
       <div className={styles.introWrapper}>
 
-        <p className={styles.greetingText}>{'Hi There, I am ->'}</p>
+        <p className={styles.greetingText}>{''}</p>
 
         <div className={styles.nameText}><Typewriter
           options={{
-            strings: ['Vidit Chawda.'],
+            strings: [ 'Hello there i am',  'Vidit Chawda.'],
             autoStart: true,
             loop: true,
           }}
