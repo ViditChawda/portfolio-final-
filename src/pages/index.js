@@ -6,6 +6,7 @@ import Header from '@/containers/Header'
 import Hero from '@/containers/Hero'
 import About from '@/containers/About'
 import Skills from '@/containers/Skills'
+import Footer from '@/containers/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,6 +17,7 @@ export default function Home() {
       <Hero className={styles.Hero}/>
       <About className={styles.About} />
       <Skills/>
+      <Footer/>
     </div>
   )
 }

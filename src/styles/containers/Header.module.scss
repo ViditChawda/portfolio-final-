@@ -3,7 +3,7 @@
 
 
 .mainnav {
-    
+    letter-spacing: 2px;
     z-index: 300px;
     position: sticky;
     top: 0;
@@ -17,7 +17,7 @@
     font-size: large;
     // border: 1px solid black;
 
-    .namelogo{
+    .namelogo {
         font-weight: 700;
         font-size: 25px;
         margin-left: 20px;
@@ -39,6 +39,11 @@
 
     .navoptions a {
         margin-left: 40px;
+
+        .navoptions a :hover {
+            // cursor: pointer;
+            color: #00abf0;
+        }
     }
 
     .hamburger {
@@ -71,6 +76,11 @@
         font-size: small;
         padding: 15px;
 
+        .namelogo {
+            font-size: 23px;
+        }
+
+
         .navoptions a {
             margin-left: 30px;
             font-size: 12px;
@@ -83,6 +93,11 @@
         font-size: small;
         padding: 10px;
 
+        .namelogo {
+            font-size: 21px;
+        }
+
+
         .navoptions a {
             margin-left: 30px;
             font-size: 12px;
@@ -94,6 +109,11 @@
     .mainnav {
         padding: 8px;
         font-size: 11px;
+
+        .namelogo {
+            font-size: 19px;
+        }
+
 
         .navoptions a {
             display: none;
@@ -118,6 +138,10 @@
 @media screen and (max-width: 400px) {
     .mainnav {
         font-size: small;
+
+        .namelogo {
+            font-size: 17px;
+        }
 
         .navoptions a {
             display: none;
