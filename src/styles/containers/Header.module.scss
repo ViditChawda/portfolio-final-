@@ -1,6 +1,7 @@
 // @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
 // @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap');
 
+
 .mainnav {
     z-index: 300px;
     position: sticky;
@@ -15,6 +16,12 @@
     font-size: large;
     // border: 1px solid black;
 
+    .namelogo{
+        font-weight: 700;
+        font-size: 25px;
+        margin-left: 20px;
+    }
+
     .copyricon {
         margin-top: 5px;
     }
@@ -22,6 +29,7 @@
     .navoptions {
         display: flex;
         font-size: 15px;
+        margin-top: 10px;
         font-weight: 300;
         // font-family: 'Fira Code', monospace;
         justify-content: space-around;
