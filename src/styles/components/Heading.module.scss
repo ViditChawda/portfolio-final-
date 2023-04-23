@@ -1,6 +1,7 @@
 // @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
 
 .heading {
+    color: white;
     display: flex;
     justify-content: center;
     // font-family: 'Poppins', sans-serif;
@@ -10,7 +11,7 @@
 
     .line {
         width: 480px;
-        border-top: 1px solid black;
+        border-top: 1px solid #00abf0;
         margin-top: 25px;
     }
 }

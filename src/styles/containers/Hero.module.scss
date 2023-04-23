@@ -23,17 +23,16 @@
         min-height: 90vh;
 
         .greetingText {
-            color: #7991bd;
+            color: #00abf0;
             font-size: 16px;
-            font-weight:  500;
-            font-family: Fira Code;
+            font-weight: 500;
             margin: 25px 3px;
             width: 100%;
             // border: 1px solid black;
         }
 
         .nameText {
-            color: #2f387b;
+            color: white;
             font-size: 76px;
             font-weight: 600;
             // border: 1px solid black;
@@ -49,9 +48,9 @@
         }
 
         .myIcons a {
-            color: #2f387b;
+            color: #00abf0;
             margin-right: 14px;
-            font-size: 25px;
+            font-size: 35px;
             transition: 5s;
 
             :hover{
@@ -60,7 +59,7 @@
         }
 
         .currentStatusText {
-            color: #0c023e;
+            color: white;
             font-size: 20px;
             max-width: 550px;
             width: 100%;
@@ -77,7 +76,8 @@
             background-color: transparent;
 
             border-radius: 4px;
-            border: 1px solid black;
+            color: white;
+            border: 1px solid white;
             padding: 18px 30px;
 
             // padding: 18px 30px;

@@ -3,13 +3,14 @@
 
 
 .mainnav {
+    
     z-index: 300px;
     position: sticky;
     top: 0;
     font-weight: 600;
-    background-color: white;
+    background-color: #081b29;
     // font-family: 'Poppins', sans-serif;
-    color: rgb(57, 56, 56);
+    color: white;
     display: flex;
     justify-content: space-between;
     padding: 18px;
