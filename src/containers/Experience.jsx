@@ -2,7 +2,7 @@ import React from 'react'
 import styles from '../styles/containers/Experience.module.scss'
 import Heading from '@/components/Heading'
 import ExpCard from '@/components/ExpCard'
-import gdsclogo from '../assets/GDSC-logo.png'
+import gdsclogo from '../assets/gdsclogo.png'
 import gdg from '../assets/unamed.png'
 import android from '../assets/android.png'
 
