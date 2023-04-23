@@ -17,9 +17,10 @@ export default function Home() {
       <Header className={styles.Header}/>
       <Hero className={styles.Hero}/>
       <About className={styles.About} />
-      {/* <Skills/> */}
       <Experience/>
+      <Skills/>
       <Footer/>
+      
     </div>
   )
 }
