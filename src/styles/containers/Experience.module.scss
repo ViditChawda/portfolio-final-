@@ -1,16 +1,17 @@
 .expContainer {
     height: 100%;
     weight: 100%;
-    
+
     min-height: 100vh;
 
     .expWrapper {
-        padding: 100px;
+        // padding: 100px;
         display: flex;
         flex-direction: column;
-        // border: 2px solid #00abf0;
+        border: 2px solid #00abf0;
         max-width: 1200px;
         margin: auto;
+
         div {
             margin: 10px 10px;
         }
@@ -20,13 +21,82 @@
             justify-content: end;
         }
 
-        .two {
-
-        }
+        .two {}
 
         .three {
             display: flex;
             justify-content: end;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .expContainer {
+        .expWrapper {
+            .one {
+               
+            }
+
+            .two {}
+
+            .three {}
+        }
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .expContainer {
+        .expWrapper {
+            .one {
+                
+            }
+
+            .two {}
+
+            .three {}
+        }
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .expContainer {
+        .expWrapper {
+            .one {
+                
+            }
+
+            .two {}
+
+            .three {}
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .expContainer {
+        .expWrapper {
+            .one {
+            }
+
+            .two {}
+
+            .three {}
+        }
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .expContainer {
+        .expWrapper {
+            .one {
+                justify-content: center;
+            }
+
+            .two {}
+
+            .three {
+                justify-content: center;
+            }
         }
     }
 }

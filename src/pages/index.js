@@ -17,7 +17,7 @@ export default function Home() {
       <Header className={styles.Header}/>
       <Hero className={styles.Hero}/>
       <About className={styles.About} />
-      <Skills/>
+      {/* <Skills/> */}
       <Experience/>
       <Footer/>
       

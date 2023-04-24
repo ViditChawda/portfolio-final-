@@ -7,13 +7,13 @@ const ExpCard = (props) => {
     return (
         <div className={styles.ExpcardContainer}>
             <div className={styles.headwrap}>
-                <p className={styles.title}>{props.title}</p>
+                <div className={styles.title}>{props.title}</div>
                 <Image className={styles.logo} src={props.logo}></Image>
             </div>
-            <p className={styles.subTitle}>{props.subTitle}</p>
-            <p className={styles.date}>{props.date}</p>
-            <p className={styles.line}></p>
-            <p className={styles.body}>{props.body}</p>
+            <div className={styles.subTitle}>{props.subTitle}</div>
+            <div className={styles.date}>{props.date}</div>
+            <div className={styles.line}></div>
+            <div className={styles.body}>{props.body}</div>
 
 
         </div>
