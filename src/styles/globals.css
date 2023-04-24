@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
 
 body {
-  width: 100vw;
+  /* width: 100%; */
   background-color: #081b29;
-
   overflow-x: hidden;
 }
 

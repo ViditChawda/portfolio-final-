@@ -5,7 +5,7 @@ import styles from '../styles/containers/Achievements.module.scss'
 function Achievements() {
   return (
     <div className={styles.achContainer}>
-        <Heading title="ACHIEVEMENTS"/>
+        {/* <Heading title="ACHIEVEMENTS"/> */}
     </div>
   )
 }
