@@ -49,26 +49,152 @@
     .body {
         margin-top: 10px;
         opacity: 0.7;
+        font-size: 20px;
     }
 
 }
 
 @media screen and (max-width: 1200px) {
-   
+   .ExpcardContainer{
+    .headwrap{
+        .title{
+            font-size: 25px;
+
+        }
+        .logo{
+
+        }
+    }
+    .line{
+
+    }
+    .body{
+        font-size : 20px;
+
+    }
+    .date{
+        font-size : 15px;
+
+    }
+    .subTitle{
+        font-size : 20px;
+
+    }
+   }
 }
 
 @media screen and (max-width: 1100px) {
-    
+    .ExpcardContainer{
+        .headwrap{
+            .title{
+                font-size: 25px;
+
+            }
+            .logo{
+
+            }
+        }
+        .line{
+
+        }
+        .body{
+            font-size : 20px;
+
+        }
+        .date{
+            font-size : 15px;
+
+        }
+        .subTitle{
+            font-size : 20px;
+
+        }
+    }
 }
 
 @media screen and (max-width: 750px) {
-    
+    .ExpcardContainer{
+        .headwrap{
+            .title{
+                font-size: 23px;
+
+            }
+            .logo{
+
+            }
+        }
+        .line{
+
+        }
+        .body{
+            font-size : 19px;
+
+        }
+        .date{
+            font-size : 15px;
+
+        }
+        .subTitle{
+            font-size : 19px;
+
+        }
+    }
 }
 
 @media screen and (max-width: 600px) {
-    
+    .ExpcardContainer{
+        .headwrap{
+            .title{
+                font-size: 21px;
+
+            }
+            .logo{
+
+            }
+        }
+        .line{
+
+        }
+        .body{
+            font-size : 18px;
+
+        }
+        .date{
+            font-size : 14px;
+
+        }
+        .subTitle{
+            font-size : 18px;
+
+        }
+    }
 }
 
 @media screen and (max-width: 550px) {
-    
+    .ExpcardContainer{
+        .headwrap{
+            .title{
+                font-size: 19px;
+
+            }
+            .logo{
+
+            }
+        }
+        .line{
+
+        }
+        .body{
+            font-size : 16px;
+
+        }
+        .date{
+            font-size : 13px;
+
+        }
+        .subTitle{
+            font-size : 17px;
+
+        }
+    }
 }
