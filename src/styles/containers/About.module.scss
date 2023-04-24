@@ -21,7 +21,7 @@
             font-size: 20px;
             // width: 100%;
             color: white;
-            padding: 50px;
+            padding: 30px;
 
             span {
                 font-size: 23px;
@@ -95,9 +95,11 @@
     .aboutContainer {
         .aboutWrapper {
             flex-direction: column;
-            width: 380px;
+            width: 450px;
 
-            .aboutContent {}
+            .aboutContent {
+
+            }
 
             .aboutImage {
                 height: 360px;

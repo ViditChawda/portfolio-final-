@@ -7,10 +7,6 @@
   min-height: 100vh;
 }
 
-.container{
-  scroll-snap-type: y mandatory;
-}
-
 .Hero{
   scroll-snap-align: start;
 }
