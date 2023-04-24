@@ -5,9 +5,10 @@ import { motion } from 'framer-motion'
 const Heading = (props) => {
   return (
     <div className={styles.heading}>
+      <p className={styles.line}></p>
       {/* <p className={styles.line}></p> */}
-      <p>{props.title}</p>
-      {/* <p className={styles.line}></p> */}
+      <p className={styles.title}>{props.title}</p>
+      <p className={styles.line}></p>
     </div>
   )
 }

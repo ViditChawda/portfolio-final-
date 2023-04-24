@@ -8,6 +8,7 @@ import About from '@/containers/About'
 import Skills from '@/containers/Skills'
 import Footer from '@/containers/Footer'
 import Experience from '@/containers/Experience'
+import Blogs from '@/containers/Blogs'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,6 +20,7 @@ export default function Home() {
       <About className={styles.About} />
       {/* <Skills/> */}
       <Experience/>
+      <Blogs/>
       <Footer/>
       
     </div>

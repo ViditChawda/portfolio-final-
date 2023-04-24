@@ -1,7 +1,7 @@
 .ExpcardContainer {
 
     border-radius: 10px;
-    max-width: 520px;
+    max-width: 600px;
     padding: 20px;
     color: white;
     // height: 200px;
@@ -11,6 +11,7 @@
 
     &:hover {
         border: 1px solid #00abf0;
+        cursor: pointer;
     }
 
     .headwrap {
@@ -49,7 +50,7 @@
     .body {
         margin-top: 10px;
         opacity: 0.7;
-        font-size: 20px;
+        font-size: 18px;
     }
 
 }
