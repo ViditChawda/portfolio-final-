@@ -13,7 +13,8 @@ const Header = () => {
       <div className={styles.navoptions}>
         <a href="#Home">Home.js</a>
         <a href="#About">About.js</a>
-        <a href="#Skills">Skills.js</a>
+        <a href="#Achievements">Achievements.js</a>
+        <a href="#content">Content.js</a>
         <a href="#Experience">Experience.js</a>
         <a href="#Contact">Contact.js</a>
       </div>
