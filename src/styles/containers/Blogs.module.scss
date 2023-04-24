@@ -24,6 +24,7 @@
             height: 300px;
             border-radius: 10px;
             opacity: 0.8;
+            transition: .3s;
 
             &:hover{
                 opacity: 1;
@@ -46,7 +47,7 @@
                 font-size: 15px;
                 margin-bottom: 6px;
                 opacity: .5;
-                
+                transition: .3s;
                 &:hover{
                     opacity: 1;
                 }
@@ -148,6 +149,7 @@
         .blogWrap {
             flex-direction: column;
             width: 473px;
+            padding: 8px;
             margin-top: 50px;
 
             .image {
@@ -172,13 +174,14 @@
 
 @media screen and (max-width: 550px) {
     .blogContainer {
+        padding: 7px;
         .blogWrap {
             flex-direction: column;
-            width: 453px;
+            width: 413px;
             margin-top: 50px;
             .image {
-                height: 250px;
-                width: 430px;
+                height: 210px;
+                width: 390px;
             }
 
             .description {
