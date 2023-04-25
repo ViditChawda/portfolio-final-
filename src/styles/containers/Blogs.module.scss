@@ -124,7 +124,7 @@
     .blogContainer {
         .blogWrap {
             flex-direction: column;
-            width: 573px;
+            width: 100%;
             margin-top: 50px;
 
             .image {}
@@ -148,13 +148,13 @@
     .blogContainer {
         .blogWrap {
             flex-direction: column;
-            width: 473px;
+            width: 100%;
             padding: 8px;
             margin-top: 50px;
 
             .image {
                 height: 270px;
-                width: 450px;
+                width: 100%;
             }
 
             .description {
@@ -198,3 +198,4 @@
         }
     }
 }
+

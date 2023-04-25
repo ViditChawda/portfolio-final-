@@ -4,6 +4,7 @@
     letter-spacing: 25px;
     color: #00abf0;
     font-weight: lighter;
+    width: 100%;
     display: flex;
     justify-content: center;
     // font-family: 'Poppins', sans-serif;
@@ -52,8 +53,9 @@
 @media screen and (max-width: 750px) {
     .heading{
         font-size: 29px;
+        // width: 100%;
         .line{
-            width: 200px;
+            width: 18px;
             margin-top: 19px;
         }
     }
@@ -63,7 +65,7 @@
     .heading{
         font-size: 20px;
         .line{
-            // width: 150px;
+            width: 17px;
             margin-top: 15px;
         }
     }
@@ -71,11 +73,12 @@
 
 @media screen and (max-width: 550px) {
     .heading{
-        font-size: 15px;
+        font-size: 13px;
         // margin: 100px;
+        width: 100%;    
         .line{
-            width: 100%;
-            margin-top: 15px;
+            width : 16px;
+            margin-top: 11px;
         }
     }
 }

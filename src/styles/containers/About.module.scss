@@ -21,7 +21,7 @@
             font-size: 20px;
             // width: 100%;
             color: white;
-            padding: 80px;
+            padding: 50px;
 
             span {
                 font-size: 23px;
@@ -112,6 +112,7 @@
 
 @media screen and (max-width: 550px) {
     .aboutContainer {
+        text-align: center;
         .aboutWrapper {
             .aboutContent {}
 

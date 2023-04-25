@@ -4,12 +4,12 @@ import styles from '../styles/components/AchievementCard.module.scss'
 function AchievementCard() {
   return (
     <div className={styles.achievementContainer}>
-        <div className={styles.sdkf}>
+      <div className={styles.sdkf}>
 
-        </div>
-        <div className={styles.description}>
+      </div>
+      <div className={styles.description}>
 
-        </div>
+      </div>
     </div>
   )
 }
