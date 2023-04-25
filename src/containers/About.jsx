@@ -2,7 +2,7 @@ import Heading from '@/components/Heading'
 import React from 'react'
 import styles from '../styles/containers/About.module.scss'
 import Image from 'next/image'
-import myImg from '../assets/my_img.png'
+import myImg from '../assets/myimg.jpg'
 import { motion } from 'framer-motion'
 
 const About = () => {

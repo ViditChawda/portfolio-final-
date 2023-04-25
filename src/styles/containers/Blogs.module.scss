@@ -26,7 +26,7 @@
             opacity: 0.8;
             transition: .3s;
 
-            &:hover{
+            &:hover {
                 opacity: 1;
             }
         }
@@ -48,7 +48,8 @@
                 margin-bottom: 6px;
                 opacity: .5;
                 transition: .3s;
-                &:hover{
+
+                &:hover {
                     opacity: 1;
                 }
             }
@@ -175,10 +176,12 @@
 @media screen and (max-width: 550px) {
     .blogContainer {
         padding: 7px;
+
         .blogWrap {
             flex-direction: column;
             width: 100%;
             margin-top: 50px;
+
             .image {
                 height: 210px;
                 width: 100%;
@@ -198,4 +201,3 @@
         }
     }
 }
-
