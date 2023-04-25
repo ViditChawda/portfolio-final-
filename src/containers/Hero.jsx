@@ -22,7 +22,7 @@ const Hero = () => {
 
         <div className={styles.nameText}><Typewriter
           options={{
-            strings: [ 'Hello there i am',  'Vidit Chawda.'],
+            strings: ['Hello there i am', 'Vidit Chawda.'],
             autoStart: true,
             loop: true,
           }}
@@ -46,12 +46,14 @@ const Hero = () => {
           <a href=""><FiFacebook /></a>
           <a href=""><FiTwitter /></a>
         </div>
+        <div className={styles.buttonDiv}>
+          <button className={styles.resumeDownloadButton}>
+            <a href="https://drive.google.com/file/d/1cJzN988zfwvqIYoN-QJnIKWl_7nh1VOi/view">
+              {'Download my Resume!'}
+            </a>
+          </button>
+        </div>
 
-        <button className={styles.resumeDownloadButton}>
-          <a href="https://drive.google.com/file/d/1cJzN988zfwvqIYoN-QJnIKWl_7nh1VOi/view">
-            {'Download my Resume!'}
-          </a>
-        </button>
       </div>
     </div>
   )
