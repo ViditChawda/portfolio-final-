@@ -2,12 +2,13 @@
     min-height: 100vh;
     width: 100%;
     height: 100%;
+    padding: 100px;
     border: 1px solid #00abf0;
 
     .achWrapper {
-        // width: 300px;
-        
+        width: 600px;
         display: flex;
+        margin: auto;
         overflow-x: scroll;
         scroll-snap-type: x mandatory;
         scroll-behavior: smooth;
@@ -23,8 +24,8 @@
             // width: 400px;
             scroll-snap-align: start;
             flex-shrink: 0;
-            width: 400px;
-            height: 400px;
+            width: 500px;
+            height: 600px;
             /* Add other styles as needed */
         }
     }

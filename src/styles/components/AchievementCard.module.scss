@@ -2,5 +2,18 @@
     border: 2px solid #00abf0;
     width: 440px;
     height: 600px;
-    margin: auto;
+    border-radius: 10px;
+    color: white;
+    margin: 100px;
+    background-color:  #193357;
+    .imageWrapper{
+        padding: 30px;
+        .image{
+            width: 100%;
+            opacity: 0.9 !important;
+            border-radius: 10px;
+            border: 1px solid #00abf0;
+            height: 250px;
+        }
+    }
 }
