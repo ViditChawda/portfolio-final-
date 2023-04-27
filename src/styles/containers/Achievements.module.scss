@@ -2,11 +2,13 @@
     min-height: 100vh;
     width: 100%;
     height: 100%;
-    padding: 100px;
-    border: 1px solid #00abf0;
+    padding: 10px;
+    // border: 1px solid #00abf0;
 
     .achWrapper {
-        width: 600px;
+        width: 790px;
+        // border: 1px solid #00abf0;
+        // padding: 10px;
         display: flex;
         margin: auto;
         overflow-x: scroll;
@@ -24,8 +26,8 @@
             // width: 400px;
             scroll-snap-align: start;
             flex-shrink: 0;
-            width: 500px;
-            height: 600px;
+            width: 780px;
+            // height: 600px;
             /* Add other styles as needed */
         }
     }
@@ -33,5 +35,86 @@
     .slider {
         border: 1px solid #00abf0;
         margin: auto;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .achContainer {
+
+        .achWrapper {
+
+            &::-webkit-scrollbar {
+
+            }
+
+            .carouselSlide {
+
+            }
+        }
+
+        .slider {
+
+        }
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+    .achContainer {
+
+        .achWrapper {
+
+            &::-webkit-scrollbar {
+
+            }
+
+            .carouselSlide {
+
+            }
+        }
+
+        .slider {
+
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .achContainer {
+
+        .achWrapper {
+
+            &::-webkit-scrollbar {
+
+            }
+
+            .carouselSlide {
+
+            }
+        }
+
+        .slider {
+
+        }
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .achContainer {
+
+        .achWrapper {
+            width: 100%;
+            &::-webkit-scrollbar {
+                
+            }
+
+            .carouselSlide {
+                width: 100%;
+            }
+        }
+
+        .slider {
+
+        }
     }
 }
