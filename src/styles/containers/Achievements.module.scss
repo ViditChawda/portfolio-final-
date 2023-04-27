@@ -42,13 +42,13 @@
     .achContainer {
 
         .achWrapper {
-
+            width: 100%;
             &::-webkit-scrollbar {
-
+                
             }
 
             .carouselSlide {
-
+                width: 100%;
             }
         }
 
@@ -63,13 +63,13 @@
     .achContainer {
 
         .achWrapper {
-
+            width: 100%;
             &::-webkit-scrollbar {
-
+                
             }
 
             .carouselSlide {
-
+                width: 100%;
             }
         }
 
@@ -83,13 +83,13 @@
     .achContainer {
 
         .achWrapper {
-
+            width: 100%;
             &::-webkit-scrollbar {
-
+                
             }
 
             .carouselSlide {
-
+                width: 100%;
             }
         }
 
@@ -101,7 +101,7 @@
 
 @media screen and (max-width: 550px) {
     .achContainer {
-
+        text-align: center;
         .achWrapper {
             width: 100%;
             &::-webkit-scrollbar {

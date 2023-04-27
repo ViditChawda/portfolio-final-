@@ -175,6 +175,7 @@
 
 @media screen and (max-width: 550px) {
     .blogContainer {
+        text-align: center;
         padding: 7px;
 
         .blogWrap {
@@ -195,7 +196,9 @@
                 .tags {}
 
                 .icons {
-                    margin-bottom: 20px;
+                    // margin-bottom: 20px;
+                    margin: auto;
+                    padding: 20px;
                 }
             }
         }
