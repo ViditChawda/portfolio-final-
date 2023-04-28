@@ -12,9 +12,9 @@ import {BsArrowUpRightSquare} from 'react-icons/bs'
 import {AiOutlineYoutube} from 'react-icons/ai'
 const Blogs = () => {
     return (
-        <div id='content' className={styles.blogContainer}>
+        <div id='content' className={styles.blogContainer} data-aos="fade-up">
             <Heading title="CONTENT" />
-            <div className={styles.blogWrap}>
+            <div data-aos="fade-left" className={styles.blogWrap}>
                 <div >
                     <Image className={styles.image} src={blog}/>
                 </div>
@@ -26,7 +26,7 @@ const Blogs = () => {
                     <div className={styles.icons}> <BsArrowUpRightSquare/> <BsMedium/> </div>
                 </div>
             </div>
-            <div className={styles.blogWrap}>
+            <div data-aos="fade-right" className={styles.blogWrap}>
                 <div >
                     <Image className={styles.image} src={youtube}/>
                 </div>
@@ -38,7 +38,7 @@ const Blogs = () => {
                     <div className={styles.icons}> <BsArrowUpRightSquare/> <AiOutlineYoutube/> </div>
                 </div>
             </div>
-            <div className={styles.blogWrap}>
+            <div data-aos="fade-left" className={styles.blogWrap}>
                 <div >
                     <Image className={styles.image} src={asj}/>
                 </div>
@@ -50,7 +50,7 @@ const Blogs = () => {
                     <div className={styles.icons}> <BsArrowUpRightSquare/> <AiOutlineYoutube/> </div>
                 </div>
             </div>
-            <div className={styles.blogWrap}>
+            <div data-aos="fade-right" className={styles.blogWrap}>
                 <div >
                     <Image className={styles.image} src={dsc}/>
                 </div>

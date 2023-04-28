@@ -6,11 +6,11 @@ import winner from '../assets/winner.png'
 
 function AchievementCard(props) {
   return (
-    <div className={`${styles.achievementContainer} ${props.className}`}>
+    <div data-aos="fade-up" className={`${styles.achievementContainer} ${props.className}`}>
       <div className={styles.imageWrapper}>
 
         <div className={styles.achHeading}>
-          <div className={styles.title}>{props.title} <p className={styles.line}></p></div>
+          <div data-aos="fade-right" className={styles.title}>{props.title} <p className={styles.line}></p></div>
           <Image className={styles.headingLogo} src={winner}></Image>
         </div>
 

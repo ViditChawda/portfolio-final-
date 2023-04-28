@@ -23,7 +23,7 @@ function Achievements() {
   }
   return (
 
-    <div id='Achievement' className={styles.achContainer}>
+    <div data-aos="fade-up" id='Achievement' className={styles.achContainer}>
       <Heading title="ACHIEVEMENT" />
       <div className={styles.achWrapper} ref={containerRef}>
         <AchievementCard className={styles.carouselSlide} image={oops} title="Speaker Session : " subTitle="Speaker Session (OOPs)" body="I was the speaker in the college event where i gave a talk on object-oriented programming (OOP) concepts related to constructors, destructors, classes, and objects. The session was both informative and engaging for the attendees,

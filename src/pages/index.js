@@ -11,6 +11,8 @@ import Experience from '@/containers/Experience'
 import Blogs from '@/containers/Blogs'
 import Achievements from '@/containers/Achievements'
 import Projects from '@/containers/Projects'
+import aos from "aos";
+import { useEffect } from "react";
 
 
 const inter = Inter({ subsets: ['latin'] })

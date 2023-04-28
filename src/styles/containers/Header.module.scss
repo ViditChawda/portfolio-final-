@@ -12,10 +12,11 @@
     // font-family: 'Poppins', sans-serif;
     color: white;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     padding: 18px;
     font-size: large;
-    // border: 1px solid black;
+    // border: 1px solid #00abf0;
 
     .namelogo {
         font-weight: 700;
@@ -33,10 +34,11 @@
     .navoptions {
         display: flex;
         font-size: 15px;
-        margin-top: 10px;
+       
+        // border: 2px solid #00abf0;
         font-weight: 300;
         // font-family: 'Fira Code', monospace;
-        justify-content: space-around;
+        justify-content: space-between;
         width: 65%;
     }
 
