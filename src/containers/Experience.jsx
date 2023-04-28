@@ -8,7 +8,7 @@ import android from '../assets/android.png'
 
 function Experience() {
     return (
-        <div className={styles.expContainer}>
+        <div id='experience' className={styles.expContainer}>
             <Heading title="EXPERIENCE" />
             <div className={styles.expWrapper}>
                 <div className={styles.one}> <ExpCard title="> LEAD" subTitle="Google Developers Students Club" date="July 2022" body="I am the lead of the google developers students club at my college, i have good exeprience of managing and coducting the technical events " logo={gdsclogo} /> </div>

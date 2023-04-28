@@ -12,7 +12,7 @@ import {BsArrowUpRightSquare} from 'react-icons/bs'
 import {AiOutlineYoutube} from 'react-icons/ai'
 const Blogs = () => {
     return (
-        <div className={styles.blogContainer}>
+        <div id='content' className={styles.blogContainer}>
             <Heading title="CONTENT" />
             <div className={styles.blogWrap}>
                 <div >
