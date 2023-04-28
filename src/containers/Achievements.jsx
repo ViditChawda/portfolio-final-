@@ -47,12 +47,12 @@ for providing us such a great environment to work.
 " date="Aug 2022" />
 
       </div>
-      <div className="carousel-nav">
-        <button onClick={() => scrollToSlide(0)}>Slide 1</button>
-        <button onClick={() => scrollToSlide(1)}>Slide 2</button>
-        <button onClick={() => scrollToSlide(2)}>Slide 3</button>
-        <button onClick={() => scrollToSlide(3)}>Slide 3</button>
-        <button onClick={() => scrollToSlide(4)}>Slide 3</button>
+      <div className={styles.carouselNav}>
+        <div className={styles.arrow}>{`<----- Swipe Right`}</div>
+        <button className={styles.button} onClick={() => scrollToSlide(0)}></button>
+        <button className={styles.button} onClick={() => scrollToSlide(1)}></button>
+        <button className={styles.button} onClick={() => scrollToSlide(2)}></button>
+        <div className={styles.arrow}>{'Swipe left ----->'}</div>
       </div>
     </div>
   )
