@@ -21,16 +21,17 @@ export default function Home() {
   return (
     <div className={styles.container}>
       {/* <Image className={styles.background}></Image> */}
-      <Header className={styles.Header}/>
-      <Hero className={styles.Hero}/>
+      <Header className={styles.Header} />
+      <Hero className={styles.Hero} />
       <About className={styles.About} />
       {/* <Skills/> */}
-      <Experience/>
-      <Blogs/>
-      <Achievements/>
-      <Projects/>
-      <Footer/>
-      
+      <Experience />
+      <Achievements />
+      <Blogs />
+
+      <Projects />
+      <Footer />
+
     </div>
   )
 }

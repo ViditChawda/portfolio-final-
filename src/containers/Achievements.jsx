@@ -5,6 +5,7 @@ import AchievementCard from '@/components/AchievementCard'
 import Slider from 'react-slick';
 import oops from '../assets/oops1.png'
 import sih from '../assets/sih1.png'
+import asj from '../assets/asj.jpeg'
 
 function Achievements() {
   // const settings = {
@@ -41,19 +42,19 @@ Winning the first prize worth one lakh rupees is a great reward for your efforts
 The hackathon center being held at Chandigarh University adds to the significance of the victory. 
 " date="Aug 2022" />
 
-        <AchievementCard className={styles.carouselSlide} image={sih} title="Facilitator ASJ : " subTitle="Smart India Hackthon" body="Hello everyone, Really happy to share that we stood 1st and won 1 lakh cash prize in smart India hackathon in one of the aicte problem statement, It overall was a great experience.
+        <AchievementCard className={styles.carouselSlide} image={asj} title="Facilitator ASJ : " subTitle="Android Study Jams" body="As a facilitator of the Android study jams at G H Raisoni College of Engineering, I had the opportunity to share your expertise with other students who were eager to learn app development using Kotlin. Over the course of three sessions, I provided valuable insights and guidance to help students create their own apps.
 
-I would really like to thank CHANDIGARH UNIVERSITY for great hospitality and
-for providing us such a great environment to work.
-" date="Aug 2022" />
+The culmination of your efforts was the creation of a notes app with a team of 10 of the best participants. This collaborative effort allowed the participants to work together and apply the knowledge they gained during the study jams. By working in a team, the participants were able to leverage each other's strengths and learn from each other's experiences.
+
+The notes app that me and the team created is a testament to the power of collaboration and the value of hands-on learning. Through this project, the participants were able to apply the concepts they learned in the study jams to create a practical and useful app." date="Aug 2022" />
 
       </div>
       <div className={styles.carouselNav}>
-        <div className={styles.arrow}>{`<----- Swipe Right`}</div>
+        <div className={styles.arrow}>{`<-----`}</div>
         <button className={styles.button} onClick={() => scrollToSlide(0)}></button>
         <button className={styles.button} onClick={() => scrollToSlide(1)}></button>
         <button className={styles.button} onClick={() => scrollToSlide(2)}></button>
-        <div className={styles.arrow}>{'Swipe left ----->'}</div>
+        <div className={styles.arrow}>{'----->'}</div>
       </div>
     </div>
   )

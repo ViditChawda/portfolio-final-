@@ -6,6 +6,7 @@ function Projects() {
   return (
     <div className={styles.projectsContainer}>
         <Heading title="PROJECTS"/>
+        
     </div>
   )
 }

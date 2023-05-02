@@ -11,7 +11,7 @@ function AchievementCard(props) {
 
         <div className={styles.achHeading}>
           <div data-aos="fade-right" className={styles.title}>{props.title} <p className={styles.line}></p></div>
-          <Image className={styles.headingLogo} src={winner}></Image>
+          {/* <Image className={styles.headingLogo} ></Image> */}
         </div>
 
 
