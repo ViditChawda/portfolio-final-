@@ -11,11 +11,13 @@ import { FiInstagram } from 'react-icons/fi'
 import { FiFacebook } from 'react-icons/fi'
 import { FiTwitter } from 'react-icons/fi'
 import Typewriter from 'typewriter-effect';
+import mp from '../assets/my pic.svg'
 
 const Hero = () => {
 
   return (
     <div id="Home" className={styles.introContainer}>
+
       <div className={styles.introWrapper}>
 
         <p className={styles.greetingText}>{''}</p>
@@ -54,6 +56,9 @@ const Hero = () => {
           </button>
         </div>
 
+      </div>
+      <div className={styles.imageContainer}>
+        <Image className={styles.imageMine} src={mp}/>
       </div>
     </div>
   )

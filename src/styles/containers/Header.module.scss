@@ -22,7 +22,8 @@
         font-weight: 700;
         font-size: 22px;
         margin-left: 20px;
-        span{
+
+        span {
             color: #00abf0;
         }
     }
@@ -34,7 +35,7 @@
     .navoptions {
         display: flex;
         font-size: 15px;
-       
+
         // border: 2px solid #00abf0;
         font-weight: 300;
         // font-family: 'Fira Code', monospace;
@@ -45,6 +46,7 @@
     .navoptions a {
         margin-left: 40px;
         transition: .3s;
+
         &:hover {
             // cursor: pointer;
             color: #00abf0;
@@ -183,3 +185,5 @@
         }
     }
 }
+
+
