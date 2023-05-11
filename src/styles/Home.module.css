@@ -11,6 +11,10 @@
   scroll-snap-align: start;
 }
 
+.Header{
+  position: sticky;
+}
+
 .description {
   display: inherit;
   justify-content: inherit;

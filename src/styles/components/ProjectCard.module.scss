@@ -1,3 +1,197 @@
-.projectcardContainer{
-    
+.projectcardContainer {
+    max-width: 400px;
+    max-height: 400px;
+    position: relative;
+    border: 2px solid transparent;
+    // border: 1px solid red;
+    display: flex;
+    border-radius: 40px;
+    transition: .3s;
+
+    &:hover {
+        cursor: pointer;
+        border: 1px solid #00abf0;
+    }
+
+    .projectcardImage {
+        // border: 1px solid red;
+        height: 100%;
+        width: 100%;
+        border-radius: 40px;
+        // position: absolute;
+
+
+    }
+
+    .projectCardWrapper {
+        // border: 1px solid red;
+        position: absolute;
+        color: white;
+        height: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+        // font-size: 25px;
+        top: 5%;
+
+        .porjectTitle {
+            font-size: 25px;
+            font-style: italic;
+        }
+
+        .projectDescription {
+            font-size: 19px;
+            margin-top: 10%;
+        }
+
+        .line {
+            width: 80%;
+            margin-top: 10px;
+            border: 1px solid #00abf0;
+        }
+
+        .projectStack {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: grey;
+            font-size: 20px;
+            margin-top: 5%;
+        }
+
+        .icons {
+            font-size: 35px;
+            margin-top: 6%;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .projectcardContainer {
+        max-width: 380px;
+        max-height: 380px;
+        margin-top: 40px;
+        margin-right: 20px ;
+        .projectcardImage {
+
+        }
+
+        .projectCardWrapper {
+
+            .porjectTitle {
+                font-size: 23px;
+            }
+
+            .projectDescription {}
+
+            .line {}
+
+            .projectStack {}
+
+            .icons {}
+        }
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .projectcardContainer {
+        margin-top: 40px;
+        margin-left: 20px;
+        .projectcardImage {}
+
+        .projectCardWrapper {
+
+            .porjectTitle {
+                font-size: 21px;
+            }
+
+            .projectDescription {}
+
+            .line {}
+
+            .projectStack {}
+
+            .icons {}
+        }
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .projectcardContainer {
+        margin-top: 40px;
+        margin-left: 20px;
+        text-align: center;
+        .projectcardImage {}
+
+        .projectCardWrapper {
+
+            .porjectTitle {
+                font-size: 23px;
+            }
+
+            .projectDescription {}
+
+            .line {
+                margin: auto;
+            }
+
+            .projectStack {}
+
+            .icons {}
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .projectcardContainer {
+        margin-top: 40px;
+        .projectcardImage {}
+
+        .projectCardWrapper {
+
+            .porjectTitle {
+                font-size: 20px;
+            }
+
+            .projectDescription {
+                font-size: 19px;
+            }
+
+            .line {
+                margin: auto;
+            }
+
+            .projectStack {}
+
+            .icons {}
+        }
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .projectcardContainer {
+        text-align: center;
+        width: 150%;
+        height: 150%;
+        margin-top: 40px;
+        .projectcardImage {}
+
+        .projectCardWrapper {
+            .porjectTitle {
+                font-size: 21px;
+            }
+
+            .projectDescription {
+                font-size: 19px;
+            }
+
+            .line {
+                margin: auto;
+            }
+
+            .projectStack {
+                font-size: 15px;
+            }
+
+            .icons {}
+        }
+    }
 }
