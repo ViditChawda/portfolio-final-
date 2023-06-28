@@ -14,6 +14,7 @@ import Achievements from '@/containers/Achievements'
 import aos from "aos";
 import { useEffect } from "react";
 import Projects from '@/containers/Project'
+import Contact from '@/containers/Contact'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -27,9 +28,10 @@ export default function Home() {
       <About className={styles.About} />
       {/* <Skills/> */}
       <Experience />
-      <Projects/>
+      <Projects />
       <Blogs />
       <Achievements />
+      <Contact />
       <Footer />
 
     </div>

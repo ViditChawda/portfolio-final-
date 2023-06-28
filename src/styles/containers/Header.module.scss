@@ -111,11 +111,20 @@
 
 
         .navoptions a {
+            display: none;
             margin-left: 30px;
             font-size: 12px;
         }
     }
+
+    .navmenu {
+        display: flex;
+        z-index: 2000 !important;
+        opacity: 0.8;
+        // border: 2px solid #00abf0;
+    }
 }
+
 
 @media screen and (max-width: 950px) {
     .mainnav {
@@ -185,5 +194,3 @@
         }
     }
 }
-
-

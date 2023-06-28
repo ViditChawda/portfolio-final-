@@ -21,19 +21,19 @@ const Header = () => {
         <a href="#Projects">Projects.js</a>
         <a href="#Contact">Contact.js</a>
       </div>
-      {/* {opennav && <div className={styles.navmenu}>
-          <a href="#Home">Home.js</a>
-          <a href="">About.js</a>
-          <a href="">Skills</a>
-          <a href="">Experience</a>
-        </div>}
-        <div onClick={() => {
-          setopennav(!opennav)
-        }} className={styles.hamburger}>
-          {
-            !opennav ? <GiHamburgerMenu /> : <RxCross2 />
-          }
-        </div> */}
+      {opennav && <div className={styles.navmenu}>
+        <a href="#Home">Home.js</a>
+        <a href="">About.js</a>
+        <a href="">Skills</a>
+        <a href="">Experience</a>
+      </div>}
+      <div onClick={() => {
+        setopennav(!opennav)
+      }} className={styles.hamburger}>
+        {
+          !opennav ? <GiHamburgerMenu /> : <RxCross2 />
+        }
+      </div>
     </nav>
   )
 }
