@@ -21,7 +21,7 @@ const Header = () => {
         <a href="#Projects">Projects.js</a>
         <a href="#Contact">Contact.js</a>
       </div>
-        {opennav && <div className={styles.navmenu}>
+      {/* {opennav && <div className={styles.navmenu}>
           <a href="#Home">Home.js</a>
           <a href="">About.js</a>
           <a href="">Skills</a>
@@ -33,7 +33,7 @@ const Header = () => {
           {
             !opennav ? <GiHamburgerMenu /> : <RxCross2 />
           }
-        </div>
+        </div> */}
     </nav>
   )
 }
