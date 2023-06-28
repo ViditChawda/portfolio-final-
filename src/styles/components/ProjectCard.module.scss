@@ -1,6 +1,6 @@
 .projectcardContainer {
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 600px;
+    max-height: 600px;
     position: relative;
     border: 2px solid transparent;
     // border: 1px solid red;
@@ -171,8 +171,8 @@
 @media screen and (max-width: 376px) {
     .projectcardContainer {
         text-align: center;
-        width: 150%;
-        height: 150%;
+        height: 300px;
+        width: 300px;
         font-size: 10px;
         margin-top: 40px;
 
