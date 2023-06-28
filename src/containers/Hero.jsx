@@ -36,9 +36,9 @@ const Hero = () => {
 
         <p className={styles.currentStatusText}>
 
-          {`I'm a front-end software developer. I build both for web. 
+          {`I'm a front-end software developer. I build for web. 
                     Currently, I'm more concentrating on
-                    client projects. I love to guide and support others.`}
+                    backend development, I love to guide and support others.`}
         </p>
 
         <div className={styles.myIcons}>
