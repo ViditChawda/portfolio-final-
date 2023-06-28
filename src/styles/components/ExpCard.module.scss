@@ -2,7 +2,7 @@
 
     border-radius: 10px;
     max-width: 550px;
-    height: 320px;
+    height: 420px;
     padding: 20px;
     color: white;
     // height: 200px;
@@ -178,9 +178,10 @@
     }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 350px) {
     .ExpcardContainer {
         text-align: center;
+
 
         .headwrap {
             .title {
