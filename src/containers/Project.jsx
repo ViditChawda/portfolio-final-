@@ -5,7 +5,7 @@ import ProjectCard from '@/components/ProjectCard'
 
 function Projects() {
   return (
-    <div className={styles.projectsContainer}>
+    <div id='Projects' className={styles.projectsContainer}>
       <Heading title="PROJECTS" />
       <div className={styles.projectWrapper} data-aos="fade-up">
         <ProjectCard className={styles.card} title="portfolio-final- " type={true} des=" It is a portfolio website that has all the information about my acievements, projects and experience etc." stack="Next.js | javaScript | HTML | CSS" />

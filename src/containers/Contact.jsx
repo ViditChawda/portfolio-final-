@@ -6,18 +6,22 @@ import Heading from '@/components/Heading'
 
 const Contact = () => {
     const { register, handleSubmit, } = useForm()
+    const onSubmit = () => {
+
+    }
     return (
-        <div className={styles.contactWrapper}>
+        <div id='Contacts' className={styles.contactWrapper}>
             <Heading title="CONTACT" />
             <div className={styles.formWrapper}>
                 <p>
-                    Please Share your feedBack about the website
+                    Your Feedback
                 </p>
-                <form action="" className={styles.contactForm}>
+                <form action="" className={styles.contactForm} onSubmit={handleSubmit(onSubmit)}>
                     <div className={styles.inputFields}>
                         <input className={styles.fields} {...register("name")} placeholder='Enter Your Name' />
                         <input className={styles.fields} {...register("email")} placeholder='Enter Your Email Address' />
                         <textarea className={styles.textarea} type="" placeholder='Type Your message' />
+                        <button className={styles.submitButton}>Submit</button>
                     </div>
                 </form>
             </div>

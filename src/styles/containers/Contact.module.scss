@@ -37,6 +37,7 @@
                 background: #00acf048;
                 border: none;
                 color: white;
+                font-size: 20px;
                 padding: 20px;
                 margin-top: 30px;
             }
@@ -44,12 +45,31 @@
             .textarea {
                 height: 50%;
                 color: white;
+                font-size: 20px;
                 border-radius: 8px;
                 background: #00acf048;
                 border: none;
                 padding: 20px;
                 margin-top: 30px;
             }
+
+            .submitButton {
+                background-color: #00acf0;
+                height: 50px;
+                width: 200px;
+                align-items: center;
+                margin: 30px auto;
+                border-radius: 5px;
+
+                border: none;
+                color: white;
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+
+
         }
     }
 }

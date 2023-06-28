@@ -42,11 +42,11 @@ const Hero = () => {
         </p>
 
         <div className={styles.myIcons}>
-          <a href=""><FiGithub /></a>
-          <a href=""><FiLinkedin /></a>
-          <a href=""><FiInstagram /></a>
-          <a href=""><FiFacebook /></a>
-          <a href=""><FiTwitter /></a>
+          <a href="https://github.com/ViditChawda"><FiGithub /></a>
+          <a href="https://www.linkedin.com/in/vidit-chawda-b4a740210/"><FiLinkedin /></a>
+          <a href="https://www.instagram.com/vidit_chawda.23/"><FiInstagram /></a>
+          <a href="https://www.facebook.com/vidit.chawda.7"><FiFacebook /></a>
+          <a href="https://twitter.com/ViditChawda723"><FiTwitter /></a>
         </div>
         <div className={styles.buttonDiv}>
           <button className={styles.resumeDownloadButton}>

@@ -21,11 +21,12 @@
                 font-size: 30px;
                 letter-spacing: 2px;
 
-                .line{
+                .line {
                     border: 1px solid #00abf0;
                 }
 
             }
+
             .headingLogo {
                 width: 15%;
                 height: 100%;
@@ -44,7 +45,7 @@
             width: 100%;
             opacity: 0.9 !important;
             border-radius: 10px;
-            border: 1px solid #00abf0;
+            border: 8px solid #00abf0;
             height: 320px;
 
         }
@@ -68,239 +69,195 @@
 
 @media screen and (max-width: 1200px) {
     .achievementContainer {
-    
+
         .imageWrapper {
-           
-    
+
+
             .achHeading {
-              
-    
+
+
                 .title {
-                   font-size: 28px;
-    
-                    .line{
-                      
-                    }
-    
+                    font-size: 28px;
+
+                    .line {}
+
                 }
-                .headingLogo {
-                   
-                }
+
+                .headingLogo {}
             }
-    
-    
-            .subTitle {
-              
-            }
-    
-    
+
+
+            .subTitle {}
+
+
             .image {
                 height: 310px;
             }
-    
-            .date {
-                
-            }
-    
-            .body {
-                
-            }
-    
+
+            .date {}
+
+            .body {}
+
             .icons {}
         }
-    
-    
+
+
     }
-    
+
 }
 
 @media screen and (max-width: 1000px) {
     .achievementContainer {
-    
+
         .imageWrapper {
-           
-    
+
+
             .achHeading {
-              
-    
+
+
                 .title {
-                   font-size: 27px;
-                    .line{
-                      
-                    }
-    
+                    font-size: 27px;
+
+                    .line {}
+
                 }
-                .headingLogo {
-                   
-                }
+
+                .headingLogo {}
             }
-    
-    
-            .subTitle {
-              
-            }
-    
-    
+
+
+            .subTitle {}
+
+
             .image {
-               height: 310px;
+                height: 310px;
             }
-    
-            .date {
-                
-            }
-    
-            .body {
-                
-            }
-    
+
+            .date {}
+
+            .body {}
+
             .icons {}
         }
-    
-    
+
+
     }
-    
+
 }
 
 @media screen and (max-width: 750px) {
     .achievementContainer {
-    
+
         .imageWrapper {
-           
-    
+
+
             .achHeading {
-              
-    
+
+
                 .title {
-                   font-size: 25px;
-    
-                    .line{
-                      
-                    }
-    
+                    font-size: 25px;
+
+                    .line {}
+
                 }
-                .headingLogo {
-                   
-                }
+
+                .headingLogo {}
             }
-    
-    
-            .subTitle {
-              
-            }
-    
-    
+
+
+            .subTitle {}
+
+
             .image {
-               height: 290px;
+                height: 290px;
             }
-    
-            .date {
-                
-            }
-    
-            .body {
-                
-            }
-    
+
+            .date {}
+
+            .body {}
+
             .icons {}
         }
-    
-    
+
+
     }
-    
+
 }
 
 @media screen and (max-width: 600px) {
     .achievementContainer {
-    
+
         .imageWrapper {
-           
-    
+
+
             .achHeading {
-              
-    
+
+
                 .title {
-                   font-size: 24px;
-    
-                    .line{
-                      
-                    }
-    
+                    font-size: 24px;
+
+                    .line {}
+
                 }
-                .headingLogo {
-                   
-                }
+
+                .headingLogo {}
             }
-    
-    
-            .subTitle {
-              
-            }
-    
-    
+
+
+            .subTitle {}
+
+
             .image {
-               height: 250px;
+                height: 250px;
             }
-    
-            .date {
-                
-            }
-    
-            .body {
-                
-            }
-    
+
+            .date {}
+
+            .body {}
+
             .icons {}
         }
-    
-    
+
+
     }
-    
+
 }
 
 @media screen and (max-width: 550px) {
     .achievementContainer {
-    
+
         .imageWrapper {
-           
-    
+
+
             .achHeading {
-              
-    
+
+
                 .title {
-                   font-size: 20px;
-    
-                    .line{
-                      
-                    }
-    
+                    font-size: 20px;
+
+                    .line {}
+
                 }
-                .headingLogo {
-                   
-                }
+
+                .headingLogo {}
             }
-    
-    
-            .subTitle {
-              
-            }
-    
-    
+
+
+            .subTitle {}
+
+
             .image {
-               height: 200px;
+                height: 200px;
             }
-    
-            .date {
-                
-            }
-    
-            .body {
-                
-            }
-    
+
+            .date {}
+
+            .body {}
+
             .icons {}
         }
-    
-    
+
+
     }
-    
+
 }

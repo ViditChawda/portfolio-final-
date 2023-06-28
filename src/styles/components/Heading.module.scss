@@ -1,14 +1,16 @@
 // @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
 
 .heading {
-    letter-spacing: 25px;
+    letter-spacing: 15px;
     color: #00abf0;
     font-weight: lighter;
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     // font-family: 'Poppins', sans-serif;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 100;
     opacity: .9;
     // padding: 100px 0px;
@@ -18,12 +20,13 @@
     font-size: 35px;
 
     .line {
-        width: 280px;
+        width: 98%;
         border-top: 1px solid #00abf0;
         margin-top: 25px;
     }
-    .title{
-        margin-left: 25px;
+
+    .title {
+        margin-top: 20px;
     }
 }
 
@@ -31,9 +34,10 @@
 
 
 @media screen and (max-width: 1200px) {
-    .heading{
+    .heading {
         font-size: 33px;
-        .line{
+
+        .line {
             width: 300px;
             margin-top: 22px;
         }
@@ -41,9 +45,10 @@
 }
 
 @media screen and (max-width: 1000px) {
-    .heading{
+    .heading {
         font-size: 31px;
-        .line{
+
+        .line {
             width: 280px;
             margin-top: 23px;
         }
@@ -51,10 +56,11 @@
 }
 
 @media screen and (max-width: 750px) {
-    .heading{
+    .heading {
         font-size: 29px;
+
         // width: 100%;
-        .line{
+        .line {
             width: 18px;
             margin-top: 19px;
         }
@@ -62,9 +68,10 @@
 }
 
 @media screen and (max-width: 600px) {
-    .heading{
+    .heading {
         font-size: 20px;
-        .line{
+
+        .line {
             width: 17px;
             margin-top: 15px;
         }
@@ -72,12 +79,13 @@
 }
 
 @media screen and (max-width: 550px) {
-    .heading{
-        font-size: 10px;
+    .heading {
+        font-size: 25px;
         // margin: 100px;
-        width: 100%;    
-        .line{
-            width : 16px;
+        width: 100%;
+
+        .line {
+            width: 16px;
             margin-top: 11px;
         }
     }

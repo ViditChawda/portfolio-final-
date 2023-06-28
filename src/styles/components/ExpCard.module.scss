@@ -2,7 +2,7 @@
 
     border-radius: 10px;
     max-width: 550px;
-    height: 420px;
+    height: 320px;
     padding: 20px;
     color: white;
     // height: 200px;
@@ -118,8 +118,10 @@
     }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 770px) {
     .ExpcardContainer {
+        height: 350px;
+
         .headwrap {
             .title {
                 font-size: 23px;
@@ -148,8 +150,10 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
     .ExpcardContainer {
+        height: 420px;
+
         .headwrap {
             .title {
                 font-size: 21px;
@@ -178,8 +182,9 @@
     }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 377px) {
     .ExpcardContainer {
+        height: 400px;
         text-align: center;
 
 
