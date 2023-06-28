@@ -37,30 +37,31 @@
         margin: auto;
     }
 
-    .carouselNav{
+    .carouselNav {
         display: flex;
         justify-content: center;
         align-items: center;
 
-        .button{
+        .button {
             border: 1px solid #00abf0;
-            height: 20px;
+            height: 10px;
             margin: 10px;
-            width: 20px;
+            width: 10px;
             background-color: transparent;
             border-radius: 20px;
             transition: .3s;
 
-            &:hover{
+            &:hover {
                 background-color: #00abf0;
                 cursor: pointer;
             }
         }
-        .arrow{
-            color: #00abf0;
-            font-size: 20px;
-            margin: 0px 10px;
-        }
+
+        // .arrow{
+        //     color: #00abf0;
+        //     font-size: 20px;
+        //     margin: 0px 10px;
+        // }
 
     }
 }
@@ -70,18 +71,15 @@
 
         .achWrapper {
             width: 100%;
-            &::-webkit-scrollbar {
-                
-            }
+
+            &::-webkit-scrollbar {}
 
             .carouselSlide {
                 width: 100%;
             }
         }
 
-        .slider {
-
-        }
+        .slider {}
     }
 
 }
@@ -91,18 +89,15 @@
 
         .achWrapper {
             width: 100%;
-            &::-webkit-scrollbar {
-                
-            }
+
+            &::-webkit-scrollbar {}
 
             .carouselSlide {
                 width: 100%;
             }
         }
 
-        .slider {
-
-        }
+        .slider {}
     }
 }
 
@@ -111,37 +106,32 @@
 
         .achWrapper {
             width: 100%;
-            &::-webkit-scrollbar {
-                
-            }
+
+            &::-webkit-scrollbar {}
 
             .carouselSlide {
                 width: 100%;
             }
         }
 
-        .slider {
-
-        }
+        .slider {}
     }
 }
 
 @media screen and (max-width: 550px) {
     .achContainer {
         text-align: center;
+
         .achWrapper {
             width: 100%;
-            &::-webkit-scrollbar {
-                
-            }
+
+            &::-webkit-scrollbar {}
 
             .carouselSlide {
                 width: 100%;
             }
         }
 
-        .slider {
-
-        }
+        .slider {}
     }
 }

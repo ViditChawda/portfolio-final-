@@ -50,11 +50,11 @@ The notes app that me and the team created is a testament to the power of collab
 
       </div>
       <div className={styles.carouselNav}>
-        <div className={styles.arrow}>{`<-----`}</div>
+
         <button className={styles.button} onClick={() => scrollToSlide(0)}></button>
         <button className={styles.button} onClick={() => scrollToSlide(1)}></button>
         <button className={styles.button} onClick={() => scrollToSlide(2)}></button>
-        <div className={styles.arrow}>{'----->'}</div>
+
       </div>
     </div>
   )
