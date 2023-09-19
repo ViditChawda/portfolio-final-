@@ -8,7 +8,7 @@ import { db } from "../firebase.config";
 
 
 const Contact = () => {
-    const { register, handleSubmit, } = useForm()
+    const { register, handleSubmit, reset } = useForm()
 
     const onSubmit = async (data) => {
         const { name, email, message } = data;
@@ -27,7 +27,8 @@ const Contact = () => {
         })
 
         if (res) {
-            alert("Data Stored")
+            alert("Thank you for submitting your feedback")
+            reset();
         } else {
             alert("plz fill the data")
         }
@@ -45,7 +46,7 @@ const Contact = () => {
                         <input className={styles.fields} {...register("name")} placeholder='Enter Your Name' />
                         <input className={styles.fields} {...register("email")} placeholder='Enter Your Email Address' />
                         <textarea className={styles.textarea} {...register("message")} type="" placeholder='Type Your message' />
-                        <button className={styles.submitButton}>Submit</button>
+                        <button type='submit' className={styles.submitButton}>Submit</button>
                     </div>
                 </form>
             </div>
