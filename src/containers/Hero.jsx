@@ -50,7 +50,7 @@ const Hero = () => {
         </div>
         <div className={styles.buttonDiv}>
           <button className={styles.resumeDownloadButton}>
-            <a href="https://drive.google.com/file/d/1cJzN988zfwvqIYoN-QJnIKWl_7nh1VOi/view">
+            <a href="https://drive.google.com/file/d/1yR-EA1cHVrKVwUDdWPDIXk0gXqtBibrZ/view?usp=sharing">
               {'Download my Resume!'}
             </a>
           </button>
