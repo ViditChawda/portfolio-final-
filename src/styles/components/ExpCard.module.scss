@@ -2,7 +2,7 @@
 
     border-radius: 10px;
     max-width: 550px;
-    height: 320px;
+    height: fit-content;
     padding: 20px;
     color: white;
     // height: 200px;
@@ -120,7 +120,7 @@
 
 @media screen and (max-width: 770px) {
     .ExpcardContainer {
-        height: 350px;
+        height: fit-content;
 
         .headwrap {
             .title {
@@ -152,7 +152,7 @@
 
 @media screen and (max-width: 500px) {
     .ExpcardContainer {
-        height: 420px;
+        height: fit-content;
 
         .headwrap {
             .title {
@@ -184,7 +184,7 @@
 
 @media screen and (max-width: 377px) {
     .ExpcardContainer {
-        height: 400px;
+        height: fit-content;
         text-align: center;
         padding: 10px;
 

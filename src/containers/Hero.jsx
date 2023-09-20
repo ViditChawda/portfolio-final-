@@ -22,7 +22,7 @@ const Hero = () => {
 
         <p className={styles.greetingText}>{''}</p>
 
-        <div className={styles.nameText}><Typewriter
+        <div data-aos="fade-up" className={styles.nameText}><Typewriter
           options={{
             strings: ['Hello there i am', 'Vidit Chawda.'],
             autoStart: true,
@@ -30,25 +30,25 @@ const Hero = () => {
           }}
         /></div>
 
-        <p className={styles.workText}>
+        <p data-aos="fade-up" className={styles.workText}>
           {'I build stuffs for web'}
         </p>
 
-        <p className={styles.currentStatusText}>
+        <p data-aos="fade-up" className={styles.currentStatusText}>
 
           {`I'm a front-end software developer. I build for web. 
                     Currently, I'm more concentrating on
                     backend development, I love to guide and support others.`}
         </p>
 
-        <div className={styles.myIcons}>
+        <div data-aos="fade-up" className={styles.myIcons}>
           <a href="https://github.com/ViditChawda"><FiGithub /></a>
           <a href="https://www.linkedin.com/in/vidit-chawda-b4a740210/"><FiLinkedin /></a>
           <a href="https://www.instagram.com/vidit_chawda.23/"><FiInstagram /></a>
           <a href="https://www.facebook.com/vidit.chawda.7"><FiFacebook /></a>
           <a href="https://twitter.com/ViditChawda723"><FiTwitter /></a>
         </div>
-        <div className={styles.buttonDiv}>
+        <div data-aos="fade-up" className={styles.buttonDiv}>
           <button className={styles.resumeDownloadButton}>
             <a href="https://drive.google.com/file/d/1yR-EA1cHVrKVwUDdWPDIXk0gXqtBibrZ/view?usp=sharing">
               {'Download my Resume!'}
@@ -57,7 +57,7 @@ const Hero = () => {
         </div>
 
       </div>
-      <div className={styles.imageContainer}>
+      <div data-aos="fade-down" className={styles.imageContainer}>
         <Image className={styles.imageMine} src={mp} />
       </div>
     </div>

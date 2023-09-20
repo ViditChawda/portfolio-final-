@@ -13,6 +13,8 @@ const Contact = () => {
     const onSubmit = async (data) => {
         const { name, email, message } = data;
         console.log(name + email + message);
+        let flag = false
+
 
         const res = fetch("https://portfolio-d1847-default-rtdb.firebaseio.com/feedback.json", {
             method: "POST",

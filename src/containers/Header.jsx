@@ -9,11 +9,24 @@ import mp from '../assets/my pic.jpeg'
 
 const Header = () => {
 
+  const [showHamburger, setShowHamburger] = useState(true);
+
+  useEffect(() => {
+
+    const scrollY = window.scrollY
+
+    const threshold = 200;
+
+    setShowHamburger(scrollY >= threshold)
+    console.log(showHamburger);
+
+  }, [])
+
   const [opennav, setopennav] = useState(false);
 
   return (
     <nav className={styles.mainnav} >
-      <div className={styles.namelogo}> © <span>V</span>idit <span>C</span>hawda.</div>
+      <div className={styles.namelogo}> © Code By <span>V</span>idit.</div>
       <div className={styles.navoptions}>
         <a href="#Home">Home.js</a>
         <a href="#About">About.js</a>
@@ -23,6 +36,7 @@ const Header = () => {
         <a href="#Projects">Projects.js</a>
         <a href="#Contacts">Contact.js</a>
       </div>
+
       {opennav && <div className={styles.navmenu}>
         <Image className={styles.myPic} src={mp}></Image>
         <a onClick={() => { setopennav(false) }} href="#Home">Home.js</a>

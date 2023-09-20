@@ -4,17 +4,19 @@
 
 .mainnav {
     letter-spacing: 1px;
-    z-index: 30000px;
+    z-index: 30000;
     // position: sticky;
     top: 0;
     font-weight: 600;
     background-color: #081b29;
     // font-family: 'Poppins', sans-serif;
     color: white;
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 18px;
+    width: 100%;
     font-size: large;
     // border: 1px solid #00abf0;
 
@@ -86,9 +88,11 @@
     .mainnav {
         font-size: small;
         padding: 15px;
+        background: none;
 
         .namelogo {
             font-size: 23px;
+            display: none;
         }
 
 
