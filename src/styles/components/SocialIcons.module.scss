@@ -1,0 +1,39 @@
+.iconsWrapper {
+    position: fixed;
+    bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    left: 45px;
+    font-size: 35px;
+    color: white;
+    z-index: 4000;
+
+    .icon {
+        margin-bottom: 7px;
+        transition: .2s;
+
+        &:hover {
+            cursor: pointer;
+            color: #00abf0;
+        }
+    }
+
+    .line {
+        background-color: #00abf0;
+        width: 2px;
+        height: 200px;
+        margin-left: 15px;
+        margin-bottom: 20px;
+
+        &:hover {
+            background-color: #00abf0;
+        }
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .iconsWrapper {
+        display: none;
+    }
+}

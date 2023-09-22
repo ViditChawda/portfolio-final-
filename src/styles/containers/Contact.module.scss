@@ -34,7 +34,7 @@
             .fields {
                 height: 50px;
                 border-radius: 8px;
-                background: #00acf048;
+                background: transparent;
                 border: none;
                 color: white;
                 font-size: 20px;
@@ -48,7 +48,7 @@
                 color: white;
                 font-size: 20px;
                 border-radius: 8px;
-                background: #00acf048;
+                background: transparent;
                 border: none;
                 padding: 20px;
                 margin-top: 30px;
@@ -56,14 +56,14 @@
             }
 
             .submitButton {
-                background-color: #00acf0;
+                background-color: transparent;
                 height: 50px;
                 width: 200px;
                 align-items: center;
                 margin: 30px auto;
                 border-radius: 5px;
 
-                border: none;
+                border: 1px solid #00acf0;
                 color: white;
 
                 &:hover {

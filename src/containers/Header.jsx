@@ -30,10 +30,10 @@ const Header = () => {
       <div className={styles.navoptions}>
         <a href="#Home">Home.js</a>
         <a href="#About">About.js</a>
-        <a href="#Achievement">Achievements.js</a>
-        <a href="#content">Content.js</a>
         <a href="#experience">Experience.js</a>
         <a href="#Projects">Projects.js</a>
+        <a href="#content">Content.js</a>
+        <a href="#Achievement">Achievements.js</a>
         <a href="#Contacts">Contact.js</a>
       </div>
 

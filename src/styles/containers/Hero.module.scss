@@ -46,7 +46,7 @@
         align-items: flex-start;
         margin: auto;
         max-width: 1200px;
-        padding: 0px 120px;
+        padding: 0px 190px;
         width: 1500px;
         min-height: 90vh;
 
@@ -77,6 +77,7 @@
 
         .myIcons a {
             color: #00abf0;
+            display: none;
             margin-right: 14px;
             font-size: 35px;
             transition: 5s;
@@ -132,6 +133,10 @@
             .workText {
                 font-size: 62px;
                 max-width: 650px;
+            }
+
+            .myIcons a {
+                display: inline;
             }
         }
     }
