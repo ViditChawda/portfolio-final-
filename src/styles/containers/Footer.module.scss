@@ -4,7 +4,7 @@
     margin: auto;
     font-size: 15px;
     display: flex;
-    justify-content: space-between;
+    // justify-content: space-between;
     border-top: 1px solid #00abf0;
     // background-color: #00abf0;
     padding: 20px;
@@ -34,6 +34,10 @@
 
 @media screen and (max-width: 1200px) {
     .footerContainer {
+        p {
+            margin-left: 2px;
+        }
+
         font-size: 18px;
 
         a {
@@ -45,23 +49,39 @@
 @media screen and (max-width: 1000px) {
     .footerContainer {
         font-size: 16px;
+
+        p {
+            margin-left: 2px;
+        }
     }
 }
 
 @media screen and (max-width: 750px) {
     .footerContainer {
         font-size: 15px;
+
+        p {
+            margin-left: 2px;
+        }
     }
 }
 
 @media screen and (max-width: 600px) {
     .footerContainer {
         font-size: 14px;
+
+        p {
+            margin-left: 2px;
+        }
     }
 }
 
 @media screen and (max-width: 550px) {
     .footerContainer {
         font-size: 10px;
+
+        p {
+            margin-left: 2px;
+        }
     }
 }

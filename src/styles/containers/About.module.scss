@@ -33,6 +33,10 @@
             width: 250px;
             border-radius: 200px;
             height: 250px;
+            animation-name: animate;
+            animation-duration: 2s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
             margin: auto;
             z-index: 0;
             transition: 0.3s;
